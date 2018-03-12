@@ -7,17 +7,22 @@ using System.Data.Entity;
 using System.ComponentModel.DataAnnotations;
 using static System.Console;
 
-namespace CollegeDBEF
+namespace CollegeDBEF 
 {
-    public class CollegeDBEF: DbContext
+    public class CollegeDBEF1: DbContext
     {
+        public CollegeDBEF1() : base("CollegeDBEF")
+        {
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<CollegeDBEF1, Migrations.Configuration>());
+        }
+
         public DbSet<Student> Students  { get; set; }
         public DbSet<Class> Classes { get; set; }
         public DbSet<Score> Scores  { get; set; }
 
     }
     public class Student
-    {[Key]
+    {   [Key]
         public int ID { get; set; }
         public string FName { get; set; }
         public string LName { get; set; }
@@ -36,6 +41,7 @@ namespace CollegeDBEF
         public string Title { get; set; }
         public int Number { get; set; }
         public string Department { get; set; }
+        public string Instructor { get; set; }
                
     }
     
@@ -57,7 +63,7 @@ namespace CollegeDBEF
     {
         static void Main(string[] args)
         {
-            using (var db = new CollegeDBEF())
+            using (var db = new CollegeDBEF1())
             {
                 var class1 = new Class
                 {
@@ -187,15 +193,15 @@ namespace CollegeDBEF
 
                 var student3 = new Student
                 {
-                FName = "Albert",
-                LName = "AlwaysLate",
-                SSN = 102667334,
-                Address = "90615 Kumquat Square",
-                City = "Avon",
-                State = "Ohio",
-                Zip = 45332,
-                Phone = 3389945320,
-                Grades = new List<Score>()
+                    FName = "Albert",
+                    LName = "AlwaysLate",
+                    SSN = 102667334,
+                    Address = "90615 Kumquat Square",
+                    City = "Avon",
+                    State = "Ohio",
+                    Zip = 45332,
+                    Phone = 3389945320,
+                    Grades = new List<Score>()
                 };
                 db.Students.Add(student3);
 
