@@ -1,0 +1,14 @@
+c:\users\cc5 student\source\repos\CollegeDBEF\CollegeDBEF\obj\Debug\CollegeDBEF.csprojResolveAssemblyReference.cache
+c:\users\cc5 student\source\repos\CollegeDBEF\CollegeDBEF\obj\Debug\CollegeDBEF.csproj.CoreCompileInputs.cache
+C:\Users\CC5 STUDENT\source\repos\CollegeDBEF\CollegeDBEF\bin\Debug\CollegeDBEF.exe.config
+C:\Users\CC5 STUDENT\source\repos\CollegeDBEF\CollegeDBEF\bin\Debug\CollegeDBEF.exe
+C:\Users\CC5 STUDENT\source\repos\CollegeDBEF\CollegeDBEF\bin\Debug\CollegeDBEF.pdb
+C:\Users\CC5 STUDENT\source\repos\CollegeDBEF\CollegeDBEF\bin\Debug\EntityFramework.dll
+C:\Users\CC5 STUDENT\source\repos\CollegeDBEF\CollegeDBEF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CC5 STUDENT\source\repos\CollegeDBEF\CollegeDBEF\bin\Debug\EntityFramework.xml
+C:\Users\CC5 STUDENT\source\repos\CollegeDBEF\CollegeDBEF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CC5 STUDENT\source\repos\CollegeDBEF\CollegeDBEF\obj\Debug\CollegeDBEF.exe
+C:\Users\CC5 STUDENT\source\repos\CollegeDBEF\CollegeDBEF\obj\Debug\CollegeDBEF.pdb
+C:\Users\CC5 STUDENT\source\repos\CollegeDBEF\CollegeDBEF\obj\Debug\CollegeDBEF.Migrations.ResetDB.resources
+C:\Users\CC5 STUDENT\source\repos\CollegeDBEF\CollegeDBEF\obj\Debug\CollegeDBEF.csproj.GenerateResource.Cache
+C:\Users\CC5 STUDENT\source\repos\CollegeDBEF\CollegeDBEF\obj\Debug\CollegeDBEF.Migrations.AddInstructor.resources
